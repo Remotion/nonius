@@ -16,7 +16,7 @@
 
 #include <nonius/nonius.hpp>
 #include <nonius/detail/argparse.hpp>
-#include <nonius/detail/string_utils.h++>
+#include <nonius/detail/string_utils.hpp>
 
 #include <vector>
 #include <string>
