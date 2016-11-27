@@ -14,13 +14,13 @@
 #ifndef NONIUS_REPORTERS_JUNIT_REPORTER_HPP
 #define NONIUS_REPORTERS_JUNIT_REPORTER_HPP
 
-#include <nonius/reporter.h++>
-#include <nonius/configuration.h++>
-#include <nonius/sample_analysis.h++>
-#include <nonius/execution_plan.h++>
-#include <nonius/environment.h++>
-#include <nonius/detail/pretty_print.h++>
-#include <nonius/detail/escape.h++>
+#include <nonius/reporter.hpp>
+#include <nonius/configuration.hpp>
+#include <nonius/sample_analysis.hpp>
+#include <nonius/execution_plan.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/detail/pretty_print.hpp>
+#include <nonius/detail/escape.hpp>
 
 #include <ios>
 #include <iomanip>

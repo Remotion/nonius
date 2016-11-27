@@ -14,9 +14,9 @@
 #ifndef NONIUS_DETAIL_MEASURE_HPP
 #define NONIUS_DETAIL_MEASURE_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/detail/complete_invoke.h++>
-#include <nonius/detail/timing.h++>
+#include <nonius/clock.hpp>
+#include <nonius/detail/complete_invoke.hpp>
+#include <nonius/detail/timing.hpp>
 
 #include <utility>
 

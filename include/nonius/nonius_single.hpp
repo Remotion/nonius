@@ -11,5 +11,5 @@
 
 // Single header root
 
-#include <nonius/nonius.h++>
-#include <nonius/main.h++>
+#include <nonius/nonius.hpp>
+#include <nonius/main.hpp>

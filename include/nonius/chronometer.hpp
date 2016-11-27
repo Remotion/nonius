@@ -14,10 +14,10 @@
 #ifndef NONIUS_CHRONOMETER_HPP
 #define NONIUS_CHRONOMETER_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/detail/complete_invoke.h++>
-#include <nonius/detail/meta.h++>
-#include <nonius/param.h++>
+#include <nonius/clock.hpp>
+#include <nonius/detail/complete_invoke.hpp>
+#include <nonius/detail/meta.hpp>
+#include <nonius/param.hpp>
 #include <boost/lexical_cast.hpp>
 
 namespace nonius {

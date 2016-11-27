@@ -14,8 +14,8 @@
 #ifndef NONIUS_DETAIL_TIMING_HPP
 #define NONIUS_DETAIL_TIMING_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/detail/complete_invoke.h++>
+#include <nonius/clock.hpp>
+#include <nonius/detail/complete_invoke.hpp>
 
 #include <tuple>
 #include <type_traits>

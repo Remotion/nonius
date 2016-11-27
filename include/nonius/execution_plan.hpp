@@ -14,12 +14,12 @@
 #ifndef NONIUS_EXECUTION_PLAN_HPP
 #define NONIUS_EXECUTION_PLAN_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/environment.h++>
-#include <nonius/optimizer.h++>
-#include <nonius/detail/benchmark_function.h++>
-#include <nonius/detail/repeat.h++>
-#include <nonius/detail/run_for_at_least.h++>
+#include <nonius/clock.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/optimizer.hpp>
+#include <nonius/detail/benchmark_function.hpp>
+#include <nonius/detail/repeat.hpp>
+#include <nonius/detail/run_for_at_least.hpp>
 
 namespace nonius {
     template <typename Duration>

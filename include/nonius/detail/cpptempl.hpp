@@ -73,7 +73,7 @@
 #include <sstream>
 #include <boost/algorithm/string.hpp>
 
-#include <nonius/detail/noexcept.h++>
+#include <nonius/detail/noexcept.hpp>
 
 namespace cpptempl
 {

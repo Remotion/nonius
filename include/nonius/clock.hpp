@@ -14,7 +14,7 @@
 #ifndef NONIUS_CLOCK_HPP
 #define NONIUS_CLOCK_HPP
 
-#include <nonius/detail/compiler.h++>
+#include <nonius/detail/compiler.hpp>
 
 // MSVC <chrono> is borken and had little to no testing done before shipping (Dev14/VS15 CTP fixes it)
 #if defined(NONIUS_MSVC) && NONIUS_MSVC < 1900

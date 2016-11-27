@@ -14,7 +14,7 @@
 #ifndef NONIUS_CONFIGURATION_HPP
 #define NONIUS_CONFIGURATION_HPP
 
-#include <nonius/param.h++>
+#include <nonius/param.hpp>
 #include <boost/optional.hpp>
 #include <string>
 #include <vector>

@@ -14,7 +14,7 @@
 #ifndef NONIUS_ARGPARSE_HPP
 #define NONIUS_ARGPARSE_HPP
 
-#include <nonius/detail/mismatch.h++>
+#include <nonius/detail/mismatch.hpp>
 
 #include <string>
 #include <unordered_map>
@@ -39,11 +39,11 @@ namespace nonius {
             bool matches_long(std::string const& s) const {
                 return std::get<0>(long_separator(s));
             }
-            bool matches_long(std::string const& s, std::string& argument) const {
+            bool matches_long(std::string const& s, std::string& argument_out) const {
                 bool match; std::string::const_iterator it;
                 std::tie(match, it) = long_separator(s);
                 if(match && it != s.end()) {
-                    if(*it == '=') argument.assign(it+1, s.end());
+                    if(*it == '=') argument_out.assign(it+1, s.end());
                     else return false;
                 }
                 return match;

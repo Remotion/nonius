@@ -14,7 +14,7 @@
 #ifndef NONIUS_DETAIL_NOEXCEPT_HPP
 #define NONIUS_DETAIL_NOEXCEPT_HPP
 
-#include <nonius/detail/compiler.h++>
+#include <nonius/detail/compiler.hpp>
 
 #if defined(NONIUS_MSVC) && NONIUS_MSVC < 1900
 #   define NONIUS_NOEXCEPT

@@ -14,8 +14,8 @@
 #ifndef NONIUS_MAIN_HPP
 #define NONIUS_MAIN_HPP
 
-#include <nonius/nonius.h++>
-#include <nonius/detail/argparse.h++>
+#include <nonius/nonius.hpp>
+#include <nonius/detail/argparse.hpp>
 
 #include <boost/algorithm/string.hpp>
 

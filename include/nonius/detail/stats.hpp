@@ -14,9 +14,9 @@
 #ifndef NONIUS_DETAIL_ANALYSIS_HPP
 #define NONIUS_DETAIL_ANALYSIS_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/estimate.h++>
-#include <nonius/outlier_classification.h++>
+#include <nonius/clock.hpp>
+#include <nonius/estimate.hpp>
+#include <nonius/outlier_classification.hpp>
 
 #include <boost/math/distributions/normal.hpp>
 

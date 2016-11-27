@@ -14,8 +14,8 @@
 #ifndef NONIUS_PARAM_HPP
 #define NONIUS_PARAM_HPP
 
-#include <nonius/detail/meta.h++>
-#include <nonius/detail/noexcept.h++>
+#include <nonius/detail/meta.hpp>
+#include <nonius/detail/noexcept.hpp>
 #include <boost/lexical_cast.hpp>
 #include <unordered_map>
 #include <typeinfo>

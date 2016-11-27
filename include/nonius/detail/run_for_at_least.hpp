@@ -14,12 +14,12 @@
 #ifndef NONIUS_RUN_FOR_AT_LEAST_HPP
 #define NONIUS_RUN_FOR_AT_LEAST_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/chronometer.h++>
-#include <nonius/detail/measure.h++>
-#include <nonius/detail/complete_invoke.h++>
-#include <nonius/detail/timing.h++>
-#include <nonius/detail/meta.h++>
+#include <nonius/clock.hpp>
+#include <nonius/chronometer.hpp>
+#include <nonius/detail/measure.hpp>
+#include <nonius/detail/complete_invoke.hpp>
+#include <nonius/detail/timing.hpp>
+#include <nonius/detail/meta.hpp>
 
 #include <utility>
 #include <type_traits>

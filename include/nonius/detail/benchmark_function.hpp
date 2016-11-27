@@ -14,9 +14,9 @@
 #ifndef NONIUS_DETAIL_BENCHMARK_FUNCTION_HPP
 #define NONIUS_DETAIL_BENCHMARK_FUNCTION_HPP
 
-#include <nonius/chronometer.h++>
-#include <nonius/detail/complete_invoke.h++>
-#include <nonius/detail/meta.h++>
+#include <nonius/chronometer.hpp>
+#include <nonius/detail/complete_invoke.hpp>
+#include <nonius/detail/meta.hpp>
 
 #include <type_traits>
 #include <utility>

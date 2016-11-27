@@ -14,14 +14,14 @@
 #ifndef NONIUS_REPORTERS_HTML_ALL_REPORTER_HPP
 #define NONIUS_REPORTERS_HTML_ALL_REPORTER_HPP
 
-#include <nonius/reporter.h++>
-#include <nonius/configuration.h++>
-#include <nonius/sample_analysis.h++>
-#include <nonius/execution_plan.h++>
-#include <nonius/environment.h++>
-#include <nonius/detail/pretty_print.h++>
-#include <nonius/detail/escape.h++>
-#include <nonius/detail/cpptempl.h>
+#include <nonius/reporter.hpp>
+#include <nonius/configuration.hpp>
+#include <nonius/sample_analysis.hpp>
+#include <nonius/execution_plan.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/detail/pretty_print.hpp>
+#include <nonius/detail/escape.hpp>
+#include <nonius/detail/cpptempl.hpp>
 
 #include <ios>
 #include <iomanip>
@@ -40,7 +40,7 @@ namespace nonius {
         static std::string const& template_string() {
             static char const* template_parts[] = {
 // generated content broken into pieces because MSVC is in the 1990s.
-#include <nonius/detail/html_report_template.g.h++>
+#include <nonius/detail/html_report_template.g.hpp>
             };
             static std::string const the_template = []() -> std::string {
                 std::string s;

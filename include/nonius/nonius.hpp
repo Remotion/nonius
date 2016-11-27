@@ -14,26 +14,26 @@
 #ifndef NONIUS_HPP
 #define NONIUS_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/benchmark.h++>
-#include <nonius/constructor.h++>
-#include <nonius/configuration.h++>
-#include <nonius/chronometer.h++>
-#include <nonius/optimizer.h++>
-#include <nonius/go.h++>
-#include <nonius/param.h++>
+#include <nonius/clock.hpp>
+#include <nonius/benchmark.hpp>
+#include <nonius/constructor.hpp>
+#include <nonius/configuration.hpp>
+#include <nonius/chronometer.hpp>
+#include <nonius/optimizer.hpp>
+#include <nonius/go.hpp>
+#include <nonius/param.hpp>
 
-#include <nonius/reporters/standard_reporter.h++>
+#include <nonius/reporters/standard_reporter.hpp>
 
 #ifndef NONIUS_DISABLE_EXTRA_REPORTERS
 #ifndef NONIUS_DISABLE_CSV_REPORTER
-#include <nonius/reporters/csv_reporter.h++>
+#include <nonius/reporters/csv_reporter.hpp>
 #endif // NONIUS_DISABLE_CSV_REPORTER
 #ifndef NONIUS_DISABLE_JUNIT_REPORTER
-#include <nonius/reporters/junit_reporter.h++>
+#include <nonius/reporters/junit_reporter.hpp>
 #endif // NONIUS_DISABLE_JUNIT_REPORTER
 #ifndef NONIUS_DISABLE_HTML_REPORTER
-#include <nonius/reporters/html_reporter.h++>
+#include <nonius/reporters/html_reporter.hpp>
 #endif // NONIUS_DISABLE_HTML_REPORTER
 #endif // NONIUS_DISABLE_EXTRA_REPORTERS
 

@@ -14,13 +14,13 @@
 #ifndef NONIUS_DETAIL_ENVIRONMENT_HPP
 #define NONIUS_DETAIL_ENVIRONMENT_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/environment.h++>
-#include <nonius/benchmark.h++>
-#include <nonius/detail/stats.h++>
-#include <nonius/detail/measure.h++>
-#include <nonius/detail/run_for_at_least.h++>
-#include <nonius/clock.h++>
+#include <nonius/clock.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/benchmark.hpp>
+#include <nonius/detail/stats.hpp>
+#include <nonius/detail/measure.hpp>
+#include <nonius/detail/run_for_at_least.hpp>
+#include <nonius/clock.hpp>
 
 #include <algorithm>
 #include <iterator>

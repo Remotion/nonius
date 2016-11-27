@@ -14,13 +14,13 @@
 #ifndef NONIUS_REPORTER_HPP
 #define NONIUS_REPORTER_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/outlier_classification.h++>
-#include <nonius/environment.h++>
-#include <nonius/execution_plan.h++>
-#include <nonius/sample_analysis.h++>
-#include <nonius/detail/noexcept.h++>
-#include <nonius/detail/unique_name.h++>
+#include <nonius/clock.hpp>
+#include <nonius/outlier_classification.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/execution_plan.hpp>
+#include <nonius/sample_analysis.hpp>
+#include <nonius/detail/noexcept.hpp>
+#include <nonius/detail/unique_name.hpp>
 
 #include <vector>
 #include <string>

@@ -14,9 +14,9 @@
 #ifndef NONIUS_DETAIL_ANALYSE_HPP
 #define NONIUS_DETAIL_ANALYSE_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/sample_analysis.h++>
-#include <nonius/detail/stats.h++>
+#include <nonius/clock.hpp>
+#include <nonius/sample_analysis.hpp>
+#include <nonius/detail/stats.hpp>
 
 #include <algorithm>
 #include <iterator>

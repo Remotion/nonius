@@ -14,8 +14,8 @@
 #ifndef NONIUS_ENVIRONMENT_HPP
 #define NONIUS_ENVIRONMENT_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/outlier_classification.h++>
+#include <nonius/clock.hpp>
+#include <nonius/outlier_classification.hpp>
 
 namespace nonius {
     template <typename Duration>

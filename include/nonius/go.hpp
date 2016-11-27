@@ -14,16 +14,16 @@
 #ifndef NONIUS_GO_HPP
 #define NONIUS_GO_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/benchmark.h++>
-#include <nonius/configuration.h++>
-#include <nonius/environment.h++>
-#include <nonius/reporter.h++>
-#include <nonius/reporters/standard_reporter.h++>
-#include <nonius/detail/estimate_clock.h++>
-#include <nonius/detail/analyse.h++>
-#include <nonius/detail/complete_invoke.h++>
-#include <nonius/detail/noexcept.h++>
+#include <nonius/clock.hpp>
+#include <nonius/benchmark.hpp>
+#include <nonius/configuration.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/reporter.hpp>
+#include <nonius/reporters/standard_reporter.hpp>
+#include <nonius/detail/estimate_clock.hpp>
+#include <nonius/detail/analyse.hpp>
+#include <nonius/detail/complete_invoke.hpp>
+#include <nonius/detail/noexcept.hpp>
 
 #include <algorithm>
 #include <set>

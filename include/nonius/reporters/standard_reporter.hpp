@@ -14,13 +14,13 @@
 #ifndef NONIUS_REPORTERS_STANDARD_REPORTER_HPP
 #define NONIUS_REPORTERS_STANDARD_REPORTER_HPP
 
-#include <nonius/reporter.h++>
-#include <nonius/configuration.h++>
-#include <nonius/sample_analysis.h++>
-#include <nonius/execution_plan.h++>
-#include <nonius/environment.h++>
-#include <nonius/clock.h++>
-#include <nonius/detail/pretty_print.h++>
+#include <nonius/reporter.hpp>
+#include <nonius/configuration.hpp>
+#include <nonius/sample_analysis.hpp>
+#include <nonius/execution_plan.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/clock.hpp>
+#include <nonius/detail/pretty_print.hpp>
 
 #include <ratio>
 #include <ios>

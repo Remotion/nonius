@@ -14,17 +14,17 @@
 #ifndef NONIUS_BENCHMARK_HPP
 #define NONIUS_BENCHMARK_HPP
 
-#include <nonius/clock.h++>
-#include <nonius/configuration.h++>
-#include <nonius/environment.h++>
-#include <nonius/execution_plan.h++>
-#include <nonius/chronometer.h++>
-#include <nonius/param.h++>
-#include <nonius/optimizer.h++>
-#include <nonius/detail/benchmark_function.h++>
-#include <nonius/detail/repeat.h++>
-#include <nonius/detail/run_for_at_least.h++>
-#include <nonius/detail/unique_name.h++>
+#include <nonius/clock.hpp>
+#include <nonius/configuration.hpp>
+#include <nonius/environment.hpp>
+#include <nonius/execution_plan.hpp>
+#include <nonius/chronometer.hpp>
+#include <nonius/param.hpp>
+#include <nonius/optimizer.hpp>
+#include <nonius/detail/benchmark_function.hpp>
+#include <nonius/detail/repeat.hpp>
+#include <nonius/detail/run_for_at_least.hpp>
+#include <nonius/detail/unique_name.hpp>
 
 #include <algorithm>
 #include <functional>
