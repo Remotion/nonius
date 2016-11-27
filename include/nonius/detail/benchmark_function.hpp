@@ -18,6 +18,7 @@
 #include <nonius/detail/complete_invoke.hpp>
 #include <nonius/detail/meta.hpp>
 
+#include <cassert>
 #include <type_traits>
 #include <utility>
 #include <memory>

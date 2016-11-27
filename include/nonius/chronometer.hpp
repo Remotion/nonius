@@ -18,7 +18,6 @@
 #include <nonius/detail/complete_invoke.hpp>
 #include <nonius/detail/meta.hpp>
 #include <nonius/param.hpp>
-#include <boost/lexical_cast.hpp>
 
 namespace nonius {
     namespace detail {

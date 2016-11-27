@@ -16,10 +16,10 @@
 
 #include <nonius/detail/meta.hpp>
 #include <nonius/detail/noexcept.hpp>
-#include <boost/lexical_cast.hpp>
 #include <unordered_map>
 #include <typeinfo>
 #include <memory>
+#include <sstream>
 
 namespace nonius {
 
